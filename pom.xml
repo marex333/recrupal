@@ -8,6 +8,13 @@
     <artifactId>recrupal</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id> <!-- Must match server-id above -->
+            <url>https://maven.pkg.github.com/marex333/recrupal</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
